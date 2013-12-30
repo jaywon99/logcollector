@@ -1,0 +1,9 @@
+TODO
+* Add extra configuration (like FATAL, ERROR, WARNING, INFO, DEBUG, CUSTOM)
+* Remote LogCollector CLIENT/SERVER Module
+
+DONE
+* Add extra handler - DONE
+* Add main storage configuration - (mongodb - DONE, file - DONE, mysql - ??, logcollector server - ??)
+* Make it module - DONE
+
