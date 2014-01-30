@@ -1,0 +1,8 @@
+{
+  "type": "buffered", 
+  "flush_count": 10,
+  "storage": "file",
+  "storage_option": {
+    "path": "/tmp/"
+  }
+}

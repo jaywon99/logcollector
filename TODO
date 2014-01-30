@@ -6,4 +6,5 @@ DONE
 * Add extra handler - DONE
 * Add main storage configuration - (mongodb - DONE, file - DONE, mysql - ??, logcollector server - ??)
 * Make it module - DONE
+* read from config file
 

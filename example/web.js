@@ -6,27 +6,10 @@ var app = express();
 var _ = require("underscore");
 var logcollector = require("../lib/logcollector");
 
-/*
-logcollector.configure({
-  type: 'buffered', // direct, buffered
-  flush_count: 10,
-  storage: 'mongodb',
-  storage_option: {
-    host: 'localhost',
-    port: 27017,
-    dbname: 'logCollector'
-  }
-});
-*/
+// var config = require('./config-mongo.json');
+var config = require('./config-file.json');
 
-logcollector.configure({
-  type: 'buffered', // direct, buffered
-  flush_count: 10,
-  storage: 'file',
-  storage_option: {
-    path: '/tmp/',
-  }
-});
+logcollector.configure(config);
 
 logcollector.addExtraHandler(
   function(log_group, obj) {

@@ -1,0 +1,10 @@
+{
+  "type": "buffered", 
+  "flush_count": 10,
+  "storage": "mongodb",
+  "storage_option": {
+    "host": "localhost",
+    "port": 27017,
+    "dbname": "logCollector"
+  }
+}
